@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fiszki:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="fiszki-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="fiszki:war exploded" />
+    </root>
+  </artifact>
+</component>
