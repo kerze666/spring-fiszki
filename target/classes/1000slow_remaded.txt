@@ -1,0 +1,1001 @@
+a	(przedimek nieokreślony używany z rzeczownikami policzalnymi w liczbie pojedynczej, których wymowa zaczyna się od spółgłoski)
+able	zdolny (do czegoś), mający umiejętność (robienia czegoś)
+about	o (kimś, czymś); około, mniej więcej
+above	nad, powyżej, u góry, wysoko
+accept	przyjąć, przyjmować, zaakceptować, akceptować
+account	raport, sprawozdanie; konto, rachunek (w banku), konto (w systemie komputerowym)
+across	przez, poprzez, w poprzek
+act	czyn, działanie, działać
+action	akcja, działanie, czyn, czynność
+activity	aktywność, działanie
+add	dodawać
+address	adres
+afraid	przestraszony, wystraszony
+after	po, za (np. dzień za dniem)
+afternoon	popołudnie
+again	znowu
+against	przeciwko, przeciw
+age	wiek, epoka, starzeć się
+ago	temu (np. 2 godziny temu)
+agree	zgadzać się, przyznawać rację, uzgadniać (podjąć wspólnie decyzję)
+ahead	z przodu, przed kimś
+air	powietrze
+airplane	samolot
+all	wszystkie, wszyscy
+allow	pozwalać, zezwalać
+almost	prawie, niemal, nieomal, mało co
+alone	sam, sama, samotny, samotna
+along	naprzód, dalej (o czymś poruszającym się do przodu), wzdłuż
+already	już, poprzednio
+also	również, także, ponadto
+although	mimo że, pomimo że
+always	zawsze
+among	pośród, wśród, między
+amount	ilość, liczba, wielkość, wynosić (jakąś łączną wartość)
+an	przedimek nieokreślony używany z rzeczownikami policzalnymi w liczbie pojedynczej, których wymowa zaczyna się od samogłoski (np. apple, hour)
+and	i (np. w "on i ona")
+angry	zły, rozzłoszczony
+animal	zwierzę
+another	inny, innym (np. "innym razem")
+answer	odpowiedź, odpowiedzieć
+any	dowolny, jakikolwiek
+anyone	ktoś, ktokolwiek
+anything	coś, cokolwiek
+appear	wydawać się, jawić się
+apple	jabłko
+approach	zbliżać się, podchodzić (do czegoś), podejście, metoda (sposób robienia czegoś)
+april	kwiecień
+area	obszar, rejon
+arm	ręka (ramię), rękaw; zbroić, uzbrajać
+arms	broń, uzbrojenie
+army	armia
+around	około, mniej więcej, wokół, w pobliżu
+arrive	przybyć, przyjechać
+art	sztuka
+article	artykuł (w gazecie, czasopiśmie); przedmiot, rzecz
+as	jak, tak jak (np. "jak widzisz", "jak zwykle")
+ask	pytać, zadać pytanie, prosić (np. o pomoc, radę)
+at	w, przy, na
+attack	atak, napad
+attempt	próbować, usiłować, próba, usiłowanie
+attention	uwaga
+august	sierpień
+autumn	jesień
+away	daleko, z daleka
+back	tylny, tył, tylna część; wstecz, temu (np. "to zdarzyło się 5 lat temu")
+bad	niedobry, kiepski
+bag	torba, torebka, worek
+ball	piłka, kulka; bal, zabawa
+bank	bank
+bar	pub, bar, knajpa
+base	podstawa, baza
+basic	podstawowy, fundamentalny, zasadniczy
+be (am, been, were, are, was, is)	być
+bear	niedźwiedź, niedźwiedzica; ponieść, ścierpieć (coś), znieść (coś)
+beautiful	piękny
+because	ponieważ, dlatego że, bo
+become	stać się, zostać
+bed	łóżko
+before	przed, zanim
+begin	zaczynać się
+began	rozpoczął się
+beginning	początek, rozpoczęcie
+behind	z tyłu, za (czymś, np. kryć się)
+believe	wierzyć, uwierzyć
+belong	mieć swoje miejsce, należeć, przynależeć
+below	pod (czymś), poniżej (czegoś)
+best	najlepszy, najlepsze
+better	lepszy, lepiej
+between	pomiędzy, między
+beyond	za (czymś), po drugiej stronie (czegoś), dalej
+big	duży, ważny, istotny, wielki
+bill	rachunek (za jakąś usługę); projekt ustawy; afisz, plakat
+bird	ptak
+birthday	urodziny (dzień urodzin)
+bit	część, kawałek, kąsek; bit (cyfra w dwójkowym systemie liczbowym)
+black	czarny
+block	blok, bryła, kloc; zablokować, zatarasować
+blood	krew
+blow	wiać, dmuchać
+blue	niebieski, siny
+board	deska, deseczka, płyta; rada, komisja, zarząd; wsiadać (do autobusu, pociągu, samolotu)
+boat	łódka, łódź
+body	ciało, organizm
+book	książka; rezerwować, zamawiać
+born	urodzić się
+both	jeden i drugi, obydwa
+bottle	butelka
+bottom	dół (dolna część czegoś)
+box	pudełko, skrzynka
+boy	chłopiec, chłopak
+branch	gałąź, oddział, filia, rozgałęzienie
+bread	chleb
+break	rozbić, połamać, przerwać się
+broke	bez grosza, spłukany, zrujnowany; rozbił
+breakfast	śniadanie
+bridge	most
+bright	jasny
+bring	przynieść, przywieźć
+brought	przyniósł
+brother	brat
+brown	brązowy
+build	budować
+building	budynek
+burn	palić się, płonąć; oparzenie
+bus	autobus
+business	interesy, biznes, handel
+busy	pracowity (np. dzień, czas), zajęty, zapracowany
+but	ale, lecz
+butter	masło
+buy	kupować
+bought	kupiony
+by	przez (kogoś, coś) (np. napisany przez kogoś)
+cake	cake
+call	dzwonić (do kogoś); nazywać (coś jakimś określeniem)
+can	móc
+could	mógł, potrafił (forma przeszła od "can"); mógłby (wyrażenie przypuszczenia)
+capital	stolica; kapitał
+car	samochód
+card	kartka
+care	opieka, troska
+carry	nosić, dźwigać
+case	przypadek (wystąpienie jakiejś sytuacji); walizka, waliza
+cat	kot
+catch	łapać, złapać, chwytać, łapanie, złapanie
+caught	złapany
+cause	spowodować, wywołać, przyczyna, powód
+central	środkowy, centralny
+centre / center	centrum, środek
+century	wiek, stulecie
+certain	pewien, pewny
+certainly	z pewnością, na pewno
+chair	krzesło; przewodniczący (np. rady nadzorczej, przedsiębiorstwa); przewodniczyć, prowadzić
+chance	szansa
+change	zmienić, odmienić
+charge	koszt, opłata (np. za gaz, prąd, telefon); zarzut, oskarżenie (w sądzie); ładować (baterię, akumulator)
+cheap	tani
+check	sprawdzać
+cheese	ser (żółty)
+chicken	mięso z kurczaka, kurczak
+child	dziecko
+children	dzieci
+choose	wybierać
+church	kościół
+circle	koło, okrąg
+city	miasto
+claim	twierdzić, utrzymywać, twierdzenie, zapewnienie; roszczenie, pretensja, żądanie
+class	klasa
+clean	czysty, czyścić
+clear	przezroczysty, przejrzysty; oczywisty, jasny, klarowny; czyścić, oczyszczać
+clock	zegar
+close	zamykać; bliski, pobliski, niedaleki
+clothes	ubrania, ubiór, odzież
+coat	płaszcz, kurtka; powlekać, okrywać cienką warstwą
+coffee	kawa
+cold	zimny, zimno
+college	szkoła pomaturalna, kolegium
+colour	kolor
+come	podchodzić, podejść, zbliżać się
+came	przyszedł
+common	pospolity, powszechny
+company	firma, towarzystwo
+complete	kompletny, całkowity, ukończyć, skończyć, zakończyć
+concern	dotyczyć (kogoś, czegoś); niepokój, obawa, troska
+condition	stan, kondycja; warunek, warunkować
+consider	rozważać, rozpatrywać, brać pod uwagę
+continue	trwać, utrzymywać się, kontynuować
+control	kontrola, kontrolować
+cook	kucharz, gotować
+cool	chłodny, schładzać
+copy	kopia, kopiować
+corner	kąt
+correct	poprawny, właściwy
+cost	kosztować, koszt
+count	liczba, liczyć się
+country	państwo, kraj; wiejski
+course	kurs
+court	sąd; dwór, kort (np. tenisowy)
+cover	pokrywa, powłoka, przykryć, nakryć, okryć
+cow	krowa
+cross	przechodzić, przekroczyć, przeprawić się; krzyż
+crowd	tłum, tłoczyć się, stłoczyć się
+cry	płakać, krzyczeć, wołać
+cup	filiżanka
+current	obecny, bieżący; prąd
+cut	rozcinać, ciąć, kroić, ukroić
+danger	niebezpieczeństwo
+dark	ciemny, ciemność
+date	data
+daughter	córka
+day	dzień, doba
+dead	martwy, nieżywy
+deal	umowa, układ, porozumienie; współpracować, prowadzić interesy
+dear	drogi, szanowny
+death	śmierć
+december	grudzień
+decide	postanowić, zdecydować
+decision	postanowienie, decyzja
+deep	głęboki, głęboko
+degree	stopień, poziom
+demand	popyt, zapotrzebowanie, żądać, wymagać
+department	departament, wydział
+describe	opisywać
+desk	biurko
+destination	miejsce przeznaczenia
+detail	szczegół; wyczyścić wnętrze samochodu
+develop	rozwijać, rosnąć
+die	umrzeć
+difference	różnica
+different	inny, różny, rozmaity
+difficult	trudny
+dinner	obiad
+direct	bezpośredni, kierować, zarządzać
+direction	kierunek; kierowanie, kierownictwo
+discover	odkryć, dokonać odkrycia, odnaleźć
+discuss	dyskutować, omówić
+distance	odległość
+divide	podzielić, dzielić, podział
+do	wykonywać, robić, czynić
+does	robi
+did	zrobił
+done	zrobione
+doctor	doktor, lekarz
+dog	pies
+door	drzwi
+doubt	wątpliwość, wątpić
+down	w dół, niżej
+draw	rysować; remis
+dress	sukienka, ubierać
+drink	pić
+drive	prowadzić (samochód)
+driver	kierowca
+drop	upadać, upaść
+dry	suchy, suszyć
+during	w czasie, podczas
+duty	obowiązek; opłata celna, cło
+each	każdy
+ear	ucho
+early	wcześnie
+earth	ziemia, gleba
+east	wschód, wschodni
+easy	łatwy
+eat	jeść
+edge	krawędź, brzeg, skraj, ostrze
+education	wykształcenie, edukacja
+effect	efekt
+effort	wysiłek, staranie
+egg	jajko
+eight	osiem
+eighteen	osiemnaście
+eighty	osiemdziesiąt
+either	albo ... albo ... (either... or...)
+eleven	jedenaście
+else	w przeciwnym razie, w przeciwnym wypadku
+empty	pusty
+end	koniec, końcówka
+enemy	wróg
+engine	silnik
+engineer	inżynier
+enjoy	czerpać z czegoś przyjemność
+enough	wystarczająco, dość
+enter	wejść, wchodzić do
+especially	zwłaszcza, szczególnie
+even	nawet; równy, równomierny, wyrównany
+evening	wieczór
+event	wydarzenie, zdarzenie
+ever	kiedykolwiek
+every	każdy
+everybody	wszyscy
+everyone	każdy, wszyscy
+everything	wszystko
+exam(ination)	egzamin; badania
+example	przykład
+except	oprócz, poza, z wyjątkiem
+excuse	wybaczyć, usprawiedliwić, wytłumaczyć; (z czegoś) usprawiedliwiać, zwalniać
+exercise	gimnastyka; ćwiczenie, praktyka; ćwiczyć
+expect	spodziewać się, oczekiwać
+expensive	drogi
+experience	doświadczenie
+explain	tłumaczyć, objaśniać
+eye	oko
+face	twarz, osoba
+fact	fakt
+factory	fabryka
+fair	sprawiedliwy, należny
+fall	spadać
+fell	spadł
+family	rodzina
+famous	sławny, słynny
+far	dalece, daleko, daleki
+farm	farma, gospodarstwo rolne
+farmer	rolnik, gazda
+fast	szybki, szybko
+fat	gruby
+father	ojciec
+fear	strach, lęk, bać się
+february	luty
+feel	czuć, wrażenie, odczucie
+feeling	uczucie, przeczucie, czucie
+felt	czułem; filc
+few	kilka
+field	pole
+fifteen	piętnaście
+fifth	piąty
+fifty	pięćdziesiąt
+fight	bójka, bijatyka, bić się, walczyć
+figure	figura, figurować, zrozumieć, zauważyć
+fill	napełniać, zapełniać
+film	film, filmować
+final	finałowy, końcowy
+find	znaleźć, znalezisko
+fine	świetny, udany; mandat
+finger	palec
+finish	finisz, koniec, skończyć
+fire	ogień, pożar
+firm	firma
+first	pierwszy
+fish	ryba
+five	pięć
+flat	płaski, równina; mieszkanie
+flight	lot
+floor	piętro, podłoga
+flower	kwiat
+fly	latać; mucha
+follow	podążać za (kimś),
+food	jedzenie, żywnościowy
+foot	stopa; podnóże
+feet	stopy
+for	dla
+force	siła, działania zbrojne, oddział (np. armii), zmuszać
+foreign	obcy, z innego kraju, obcojęzyczny
+forest	las
+forget	zapominać
+form	forma, formować
+forty	czterdzieści
+forward	naprzód, do przodu, przedni
+four	cztery
+fourteen	czternaście
+free	darmowy; wolny
+fresh	świeży
+friday	piątek
+friend	przyjaciel, przyjaciółka
+from	z, od
+front	front, przód
+fruit	owoc
+full	pełny
+further / furthest	dalej, dalszy, kolejny
+future	przyszłość
+game	gra
+garden	ogród
+general	ogólny, powszechny; generał
+get	dostawać, otrzymywać
+girl	dziewczynka, dziewczyna
+give	dawać, podarować
+gave	dał
+given	dany, ustalony
+glad	zadowolony (szczęśliwy z jakiegoś powodu)
+glass	szkło
+go	iść, jechać
+went	poszedł
+gone	stracony, miniony (np. czas)
+god	Bóg
+going	wyjście, odejście, odjazd; aktualny
+gold	złoto
+good	dobrze, dobry
+good-bye	do widzenia
+government	władze państwowe, rząd
+grass	trawa
+great	wielki
+green	zielony
+grey (gray)	szary
+ground	ziemia, grunt
+group	grupa
+grow	rosnąć
+grew	rósł, urósł
+guide	wskazówka, przewodnik, prowadzić,
+gun	pistolet
+hair	włosy
+half	połowa, połówka, pół
+hall	hala, sala
+hand	dłoń, ręka (do nadgarstka)
+hang	wieszać
+happen	wydarzyć się, zdarzyć się
+happy	szczęśliwy
+hard	trudny, ciężki; twardy
+hat	kapelusz
+have (has, had, having)	mieć, posiadać
+he	on
+head	głowa
+health	zdrowie
+hear	słyszeć, usłyszeć
+heard	zasłyszany, usłyszany
+heart	serce
+heat	ciepło
+heavy	ciężki
+hello / hi	Cześć
+help	pomoc, pomagać
+her	ją, jej
+here	tutaj, teraz
+high	wysoki
+him	jego, jemu
+his	jego
+history	historia
+hit	uderzać, bić, uderzenie, cios; sukces, hit
+hold	trzymać
+held	trzymany
+hole	dziura, szpara
+holiday	wakacje
+home	dom
+hope	nadzieja, mieć nadzieję
+horse	koń
+hospital	szpital
+hot	gorący
+hotel	hotel
+hour	godzina
+house	dom
+how	jak
+however	jednak, jakkolwiek
+human	człowiek, ludzki
+hundred	sto
+hurry	spieszyć się, pospieszać (kogoś)
+husband	mąż
+i	ja
+ice	lód, lody
+idea	pomysł, myśl
+if	jeśli, jeżeli
+ill	zło, szkoda; dolegliwość
+important	ważny
+in	w (we wnętrzu czegoś)
+include	włączać, wliczać, zawierać
+increase	powiększenie, wzrost, przyrost; zwiększać, wzrastać
+industry	przemysł
+information	informacja
+inside	wewnątrz, wewnętrzny
+instead	zamiast, natomiast
+interest	interes, interesować
+interesting	interesujący, ciekawy
+into	do (np. wrzucić coś do czegoś), w
+iron	żelazko, żelazo
+island	wyspa
+issue	kwestia, sprawa (np. będąca przedmiotem dyskusji); wydawać
+it	ono, to
+its	jego
+january	styczeń
+job	praca
+join	dołączyć, spotykać się
+july	lipiec
+jump	skakać, podskakiwać
+june	czerwiec
+just	po prostu; tylko, zaledwie
+keep	zostawać (w jakimś stanie), utrzymywać
+kept	trzymany, trzymał
+key	klucz, kluczowy, istotny
+kill	zabić (kogoś)
+kind	rodzaj; uprzejmy, dobry, życzliwy
+king	król
+kitchen	kuchnia
+knife	nóż
+lady	dama, pani
+land	ziemia, pole, ląd
+language	język, mowa
+lack	brak, niedostatek
+large	duży, wielki
+last	trwać, ostatni
+late	późno, później, spóźniony
+laugh	śmiać się, śmiech
+law	przepis, ustawa
+lay	kłaść, położyć
+lead	prowadzić, przewodniczyć
+leader	przywódca, lider
+learn	uczyć się
+least	najmniej, najmniejszy
+leave	wychodzić (skądś), opuszczać (jakieś miejsce), odjeżdżać (o autobusie, pociągu), odlatywać (o samolocie)
+left	lewy, w lewo; pozostawiony, zostawiony
+leg	noga
+less	mniej (np. pieniędzy, czasu)
+lesson	lekcja (w szkole)
+let	niech; pozwalać, zezwalać
+let’s	niech
+letter	list; litera
+level	poziom, stopień
+library	biblioteka
+lie	kłamać; leżeć
+life	życie
+lift	dźwigać, podnosić
+light	światło; lekki
+like	tak jak, podobnie; lubić
+limit	limit, limitować
+line	linia
+lip	warga; krawędź
+list	lista, spis
+listen	słuchać
+little	mały, mało
+live	mieszkać, zamieszkiwać, żyć
+local	miejscowy, lokalny
+long	długi, długo
+look	patrzeć, spoglądać, spojrzenie
+lose	przegrać; stracić, zgubić
+lot	dużo, wiele; działka; dola, los
+love	kochać, kochanie
+low	niski
+lunch	lunch
+machine	maszyna
+main	główny
+make	produkować, robić
+made	zrobiono
+man / men	mężczyzna
+many	dużo, wiele
+map	mapa
+march	marsz; marzec
+mark	znak; oznaczyć, znakować
+market	targ, rynek
+material	materiał
+matter	sprawa, problem (z którym trzeba sobie poradzić); liczyć się, mieć znaczenie; materia
+may	móc; maj
+maybe	być może
+me	mnie, mi
+mean	mieć na myśli, znaczyć
+meant	oznaczało
+means	sposób, środek, środki
+measure	mierzyć, miara
+meat	mięso
+meet	zbierać się (w jednym miejscu); spotykać, natykać się, natrafiać
+meeting	spotkanie, mityng
+member	członek
+message	wiadomość, przesłanie
+middle	środek, średni
+milk	mleko
+million	milion
+mind	umysł, rozum
+mine	kopalnia, wydobywać; mój
+minute	minuta
+miss	chybić, nie trafić; panna, panienka
+missus / mrs	pani (tytuł przed nazwiskiem, o kobiecie zamężnej)
+mistake	pomyłka, pomylić
+mister / mr	pan
+moment	moment
+monday	poniedziałek
+money	pieniądze
+month	miesiąc
+moon	księżyc
+more	bardziej, więcej
+morning	poranek, ranek
+most	najbardziej, najwięcej
+mother	matka, mama
+mountain	góra
+mouth	usta
+move	przenosić, przesuwać, poruszać
+much	dużo, znacznie, wiele
+music	muzyka, muzyczny
+must	musieć (coś zrobić)
+my	mój
+name	imię, nazwa
+narrow	wąski, ograniczony, ciasny, zawężony
+national	narodowy
+natural	naturalny
+nature	natura, przyroda
+near	blisko, niedaleko; zbliżyć się, zbliżać się
+nearly	niemal, prawie
+necessary	niezbędny, forsa, szmalec
+neck	szyja
+need	potrzebować, potrzeba
+neither	ani jeden, ani drugi; żaden
+never	nigdy
+new	nowy
+news	wiadomości, wieści
+newspaper	gazeta
+next	kolejny, następny
+nice	miły, przyjemny
+night	noc
+nine	dziewięć
+nineteen	dziewiętnaście
+ninety	dziewięćdziesiąt
+no	nie
+nobody	nikt
+noise	hałas, szum
+nor	ani
+north	północ
+nose	nos
+not	nie
+note	notatka, zanotować; nota; zanotować
+nothing	nic
+notice	zauważyć; zawiadomienie, wiadomość
+november	listopad
+now	teraz, natychmiast
+number	liczba, numer
+o’clock	o godzinie (przysłówek dodawany do liczebnika i znamionujący godzinę)
+object	obiekt
+october	październik
+of	używane do wskazania, że coś lub ktoś należy lub ma powiązanie
+off	z daleka, z dala (np. od jakiegoś miejsca); nieobecny (np. w pracy, w szkole); wyłączony
+offer	proponować, oferta, propozycja
+office	biurowiec, biuro
+officer	oficer
+official	oficjalny
+often	często
+oil	olej, olejek, ropa naftowa
+old	stary
+on	na
+once	jeden raz, jednokrotnie
+one	jeden
+only	tylko
+open	otwarty, otwierać
+operation	operacja
+opinion	opinia, zdanie
+opposite	naprzeciwko, przeciwieństwo
+or	lub, albo, czy
+orange	pomarańczowy, pomarańcza
+order	kolejność, porządek, ład; rozkaz, polecenie; zamówienie
+other	drugi, ten drugi (np. But)
+our	nasz
+out	oznacza "poza"
+outside	na zewnątrz, poza granicami
+over	nad, ponad
+own	własny
+page	strona (w książce, dokumencie)
+pain	ból
+paint	farba, malować
+pair	para, dwójka
+paper	papier
+park	park
+part	część
+party	impreza; partia
+pass	wyminąć, przejść; przekazać
+past	przeszłość, były, miniony
+patient	cierpliwy; pacjent, pacjentka
+pay	płacić
+peace	pokój, spokój
+pen	pióro (do pisania), długopis
+pencil	ołówek
+people	ludzie
+perhaps	być może, możliwie
+period	okres, czas
+person	osoba, podmiot
+pick	wybierać, dobierać, zrywać, zbierać (owoce, kwiaty)
+picture	zdjęcie, fotografia, film, obraz
+piece	kawałek
+pink	różowy
+place	miejsce, umieścić, położyć
+plan	plan
+plant	roślina, fabryka
+plate	talerz, tabliczka, arkusz, płytka
+play	gra, grać
+please	proszę
+point	punkt, kropka
+police	policja
+political	polityczny
+poor	biedny
+position	pozycja
+possible	możliwy
+post	poczta
+power	moc, siła, energia; władza, kontrola
+practice	praktyka
+prepare	przygotować, przyszykować
+present	prezent, podarować; teraźniejszość, współczesność; przedstawiać, prezentować; obecny (np. w pracy, na lekcji)
+press	naciskać, naciśnięcie; prasa
+pretty	ładny, ładna; całkiem, dosyć
+price	cena
+private	prywatny; szeregowy (stopień wojskowy)
+probably	prawdopodobnie
+problem	problem
+produce	powodować, wywoływać
+product	produkt
+program(me)	program
+promise	obiecywać, obietnica
+prove	udowadniać, dowodzić
+provide	dostarczać, zapewniać
+public	publiczny, ogólny, ludzie, społeczeństwo
+pull	ciągnąć
+pupil	uczeń
+purpose	zamiar, cel
+push	pchać, pchnięcie
+put	postawić, położyć
+quality	jakość, cecha, przymiot
+quarter	ćwierć, jedna czwarta
+question	pytanie
+quick	szybki, szybko
+quickly	szybko
+quiet	cichy, spokojny, cisza, spokój
+quite	całkiem, dość
+race	wyścig; rasa
+radio	radio
+rain	deszcz
+raise	podwyżka, wznosić, podnosić
+range	zakres, przedział (np. cen lub temperatur)
+rate	wskaźnik (np. bezrobocia), współczynnik
+rather	raczej, dosyć, całkiem
+reach	osiągać (na drodze rozwoju, np. poziom, etap)
+read	czytać
+ready	gotowy
+real	rzeczywisty, realny
+really	naprawdę, rzeczywiście
+reason	powód, przyczyna; rozum, rozsądek
+receive	dostawać, dostać, otrzymać
+recognize	rozpoznać, rozpoznawać
+record	pisać, notować; rekord
+red	czerwony, rudy
+remain	pozostać, nie zmienić się
+remember	pamiętać
+repeat	powtarzać
+reply	odpowiedzieć, odpowiedź
+report	raport, sprawozdanie, relacja
+represent	reprezentować
+respect	respekt, szacunek, szanować, poważać
+rest	odpoczywać, odpoczynek; reszta
+restaurant	restauracja
+result	rezultat
+return	wracać, powracać; powrót
+rich	bogaty
+ride	jeździć (na czymś)
+right	prawa strona, prawidłowy, prawo (do czegoś)
+ring	pierścionek, obrączka, kółko
+rise	podwyżka, wzrastać
+river	rzeka
+road	droga
+rock	głaz, duży kamień, skała; kołysać; rock (gatunek muzyki)
+roll	toczyć się, tarzać się; rolka
+room	pokój (w hotelu, w domu)
+round	dookoła, naokoło; runda
+rule	reguła; rządzić
+run	biegać
+ran	biegł
+sad	smutny
+sale	sprzedaż
+same	ten sam, taki sam, tak samo
+saturday	sobota
+save	zachować, oszczędzić; chronić, ratować
+say	powiedzieć, mówić
+said	powiedziany, rzeczony
+school	szkoła
+science	nauka
+sea	morze
+season	sezon, pora roku
+seat	siedzenie, miejsce, posadzić
+second	drugi; sekunda
+secret	sekretny, sekret
+secretary	sekretarz
+section	sekcja, rozdział
+see	widzieć
+seem	wydawać się, zdawać się
+sell	sprzedawać
+send	posłać, wysłać
+sent	wysłany
+sense	odczucie, poczucie; sens, celowość
+sentence	zdanie, wyrok, skazywać
+separate	oddzielny, odrębny
+september	wrzesień
+serious	poważny
+serve	obsługiwać, służyć
+service	usługa, pomoc
+set	umieścić, postawić, usytuować; zestaw (np. narzędzi), odbiornik (np. telewizyjny)
+seven	siedem
+seventeen	siedemnaście
+seventy	siedemdziesiąt
+several	kilka, parę
+shake	potrząsać, wstrząsać
+shall	(tworzy czas przyszły)
+share	podzielić się, dzielić; część
+sharp	ostry; gwałtowny; wyraźny
+she	ona
+ship	statek; wysyłać, dostarczyć
+shirt	koszula
+shoe	but
+shoot	strzelać
+shop	sklep
+short	krótki
+should	(używane do mówienia o możliwości, że coś się stanie)
+shoulder	bark, ramię
+show	pokazywać, widowisko, show
+shut	zamykać
+side	strona, bok
+sight	wzrok, patrzenie, widok, dostrzegać
+sign	znak, oznaka; podpisywać, sygnować
+simple	prosty
+since	od, odkąd
+sing	śpiewać
+single	jeden, jedyny, pojedynczy
+sir	pan
+sister	siostra
+sit	siedzieć, usiąść
+sat	siedział
+situation	sytuacja
+six	sześć
+sixteen	szesnaście
+sixty	sześćdziesiąt
+size	wielkość, rozmiar
+skin	skóra, skórka
+sky	niebo
+sleep	spać, sen
+slow	powolny
+slowly	powoli
+small	mały
+smell	zapach, wąchać
+smile	uśmiech, uśmiechać się
+smoke	dym, palić (papierosy, fajkę)
+snow	śnieg
+so	więc, dlatego, tak, taki
+social	społeczny, socjalny
+society	społeczeństwo, towarzystwo
+soft	miękki
+solution	rozwiązanie (problemu)
+some	parę, niektórzy
+someone	ktoś
+something	coś
+sometimes	czasami, niekiedy
+son	syn
+song	piosenka, śpiew
+soon	wkrótce, niedługo
+sorry	przepraszam
+sort	rodzaj, typ, sortować
+sound	dźwięk
+south	południe (kierunek)
+space	kosmos; przestrzeń, wolna przestrzeń
+speak	mówić
+spoke (speak)	mówił; szprycha (w kole rowerowym), szczebel (drabiny)
+special	specjalny
+speed	prędkość
+spend	wydatkować, spędzać (czas, energię)
+spring	wiosna; sprężyna
+square	kwadrat, kwadratowy; plac
+stage	stadium, etap; scena, arena
+stand	stać; podstawka
+stood	stał
+star	gwiazda
+start	start, zacząć
+state	stan (w jakimś coś się znajduje), stan (jednostka administracyjna państwa)
+statement	twierdzenie, oświadczenie
+station	stacja
+stay	zostać, pozostać, zatrzymać się
+step	krok
+stick	przyklejać; kij, rózga, pałeczka
+still	wciąż, nadal; nieruchomy
+stone	kamień, skała
+stop	zatrzymywać się, stawać
+store	sklep; przechowywać, składować
+story	opowieść, historia
+straight	prosty (nieskrzywiony), wyprostowany
+strange	dziwny; obcy
+street	ulica
+strike	atak, uderzenie; strajk
+strong	silny
+student	student, uczeń
+study	uczenie się, uczyć się, studiować
+subject	temat, przedmiot; badana osoba; narażony, podatny
+success	sukces
+such	taki, podobny
+suddenly	nagle, niespodziewanie
+sugar	cukier
+suggest	sugerować
+suit	pasować komuś, być komuś do twarzy; kostium, garsonka
+summer	lato
+sun	słońce
+sunday	niedziela
+supper	kolacja, wieczerza
+supply	dostarczać, zaopatrywać
+support	wspierać, podtrzymywać
+suppose	przypuszczać
+sure	pewien, pewny, pewnie, oczywiście
+surprise	niespodzianka, zaskoczenie
+sweet	słodki, słodziutki, uroczy, miły, świeży, przyjemny
+swim	pływać
+system	system
+table	stół; tabela
+take	podjąć, brać, wziąć, przyjąć, przyjmować
+took	wziął
+talk	rozmawiać
+tall	wysoki, wyższy niż przeciętnie
+tea	herbata
+teach	uczyć
+teacher	nauczyciel
+tear	łza; drzeć, rozdzierać
+(tele)phone	słuchawka, telefonować
+television	telewizor
+tell	powiedzieć, kazać
+told	powiedział, mówił
+temperature	temperatura
+ten	dziesięć
+term	termin
+test	test
+than	niż (słowo używane przy porównaniach)
+thank	dziękować
+that	tamten, tamta, tamto; że, żeby, iż
+the	przedimek określony występujący przed rzeczownikami w liczbie pojedynczej
+their	ich
+them	ich, je, nimi, nich
+then	następnie, potem, zatem; po czym, z kolei
+there	tam
+these	te
+they	oni
+thick	gruby, gęsty
+thin	cienki, chudy; rozrzedzony
+thing	rzecz, obiekt, sprawa
+think	myśleć, sądzić
+third	trzeci
+thirteen	trzynaście
+thirty	trzydzieści
+this	to
+those	tamte
+though	mimo że, chociaż
+thought	myśl, myśleć
+thousand	tysiąc
+three	trzy
+through	na wskroś, przez
+throw	rzucać, rzut
+thursday	czwartek
+tie	zawiązywać; krawat
+till	kasa; do, dopóki, aż, dopóki nie
+time	czas; raz (np. w zwrocie "ile razy?")
+to	używane w odniesieniu do działania czy stanu, który się opisuje
+today	dzisiaj
+together	razem
+tomorrow	jutro
+too	zbyt; także
+tooth	ząb
+teeth	zęby
+top	wierzchołek, szczyt
+touch	dotykać, dotknięcie
+towards	w kierunku, w stronę; wobec (np. uczucie, postawa)
+town	miasteczko, małe miasto (mniejsze niż "city")
+trade	handel, handlować
+train	pociąg; trenować
+travel	podróżować, podróż
+tree	drzewo
+trip	wycieczka, krótka podróż; potknięcie
+trouble	trudności, kłopot
+true	prawdziwy, to prawda
+try	próbować, próba, usiłowanie
+tuesday	wtorek
+turn	obracać się, obrócić się, obracać
+twelve	dwanaście
+twenty	dwadzieścia
+two	dwa
+type	typ; pisać (na komputerze)
+under	pod (czymś)
+understand	rozumieć, pojmować
+university	uniwersytet
+until	do, dopóki
+up	w górę
+upon	od, na
+us	nas, nam
+use	używać, zużywać
+used	używany
+usual	zwykły, zwyczajny
+usually	zazwyczaj
+various	przeróżny, różny
+very	bardzo
+view	pogląd
+village	wieś, wioska
+visit	odwiedzać
+voice	głos
+wait	czekać
+walk	chodzić
+wall	mur, ściana
+want	chcieć
+war	wojna
+warm	ciepły, ogrzewać
+wash	myć
+watch	oglądać, obserwować
+water	woda
+wave	fala
+way	droga; sposób
+we	my
+weak	słaby
+wear	nosić, noszenie; wycierać się, przecierać się
+weather	pogoda
+wednesday	środa
+week	tydzień
+welcome	powitanie, witaj!
+well	dobrze
+west	zachód (kierunek)
+what	co
+when	kiedy, gdy
+where	gdzie
+whether	czy
+which	który, która, które
+while	podczas, w trakcie
+white	biały
+who	kto
+whole	cały, kompletny, w całości
+whom	kogo, którego, których
+whose	czyj, czyja, czyje
+why	dlaczego, czemu

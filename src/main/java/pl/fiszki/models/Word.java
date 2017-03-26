@@ -16,6 +16,7 @@ public class Word {
     @Column(name = "polski",nullable = false)
     private String polski;
 
+
     public long getId() {
         return id;
     }

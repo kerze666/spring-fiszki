@@ -1,0 +1,11 @@
+pl\fiszki\config\RootConfig.class
+pl\fiszki\config\WebConfig.class
+pl\fiszki\controllers\CardController.class
+pl\fiszki\config\DatebaseConfig.class
+pl\fiszki\controllers\HomeController.class
+pl\fiszki\dao\WordDAO.class
+pl\fiszki\controllers\WordController.class
+pl\fiszki\dao\WordDAOimpl.class
+pl\fiszki\controllers\TestController.class
+pl\fiszki\config\FiszkiWebAppInitializer.class
+pl\fiszki\models\Word.class

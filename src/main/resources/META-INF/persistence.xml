@@ -3,13 +3,14 @@
              xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
              version="2.0">
     <persistence-unit name="localEntity">
-        <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
             <property name="javax.persistence.jdbc.user" value="root" />
             <property name="javax.persistence.jdbc.password" value="bartek" />
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/fiszki" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/fiszki"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
+            <property name="hibernate.connection.useUnicode" value="true"/>
+            <property name="hibernate.connection.characterEncoding" value="UTF-8"/>
             <property name="hibernate.hbm2ddl.auto" value="update" />
         </properties>
     </persistence-unit>

@@ -2,6 +2,7 @@ package pl.fiszki.dao;
 
 import pl.fiszki.models.Word;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -11,5 +12,7 @@ public interface WordDAO {
     void add(Word word);
     Word getWordById(long id);
     Map<Long, Word> getRandomFlashcards(int count);
+    void addAllWordsFromFile();
+    List getListOfWords(long min, long max);
 
 }

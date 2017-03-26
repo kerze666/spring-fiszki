@@ -31,7 +31,7 @@
     </column>
     <column id="15" parent="11" name="id">
       <Position>1</Position>
-      <DataType>bigint(20)|0</DataType>
+      <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="16" parent="11" name="angielski">
@@ -44,9 +44,22 @@
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="18" parent="11" name="PRIMARY">
+    <column id="18" parent="11" name="wymowa">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="19" parent="11" name="id_UNIQUE">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="20" parent="11" name="PRIMARY">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
+    </key>
+    <key id="21" parent="11" name="id_UNIQUE">
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>id_UNIQUE</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

@@ -8,7 +8,10 @@ import pl.fiszki.models.Word;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
+import java.io.*;
+import java.nio.charset.Charset;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
@@ -36,7 +39,7 @@ public class WordDAOimpl implements WordDAO {
         Map<Long ,Word> map = new HashMap<Long, Word>(count);
         int sizeOfDB = entityManager.createQuery("SELECT id from Word ").getResultList().size();
         while (true){
-            if(map.size()==10){
+            if(map.size()==count){
                 break;
             }else{
                 long randomIndex = random.nextInt(sizeOfDB);
@@ -45,5 +48,42 @@ public class WordDAOimpl implements WordDAO {
         }
         return map;
     }
+
+    @Transactional
+    public void addAllWordsFromFile(){
+        ClassLoader classLoader = getClass().getClassLoader();
+        File file = new File(classLoader.getResource("1000slow_remaded.txt").getFile());
+        InputStream is;
+        try {
+            is = new FileInputStream(file);
+            InputStreamReader inputStreamReader = new InputStreamReader(is,"UTF-8");
+            BufferedReader reader = new BufferedReader(inputStreamReader);
+            String text = null;
+            while ((text = reader.readLine()) != null) {
+                String [] tab = text.split("\t");
+                Word word = new Word();
+                word.setAngielski(tab[0]);
+                word.setPolski(tab[1]);
+                System.out.println(tab[1]);
+                entityManager.persist(word);
+            }
+            reader.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public List<Word> getListOfWords(long min, long max){
+        List<Word> list = entityManager.createQuery("SELECT w from Word w where w.id between ?1 and ?2", Word.class)
+                .setParameter(1,min)
+                .setParameter(2,max)
+                .getResultList();
+        return list;
+    }
+
 
 }
