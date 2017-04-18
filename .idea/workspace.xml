@@ -1,45 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d364d8c-0acc-4cd4-a759-f92de37709cf" name="Default" comment="Poprawienie połączenia z bazą danych, dodanie spring data jpa">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/controllers/admin/AdminController.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spring-data-jpa-1.3.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pl/fiszki/controllers/CardController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pl/fiszki/dao/WordDAOimpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fiszki-1.0-SNAPSHOT/WEB-INF/classes/pl/fiszki/controllers/CardController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fiszki-1.0-SNAPSHOT/WEB-INF/classes/pl/fiszki/dao/WordDAOimpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-controller.HomeControllerTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/controller.HomeControllerTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/controller/HomeControllerTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pl/fiszki/controllers/TestController.java" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/controllers/flashcards/TestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pl/fiszki/config/DatebaseConfig.class" afterPath="$PROJECT_DIR$/target/classes/pl/fiszki/config/DatebaseConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pl/fiszki/config/WebConfig.class" afterPath="$PROJECT_DIR$/target/classes/pl/fiszki/config/WebConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pl/fiszki/controllers/TestController.class" afterPath="$PROJECT_DIR$/target/classes/pl/fiszki/controllers/TestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pl/fiszki/controllers/WordController.class" afterPath="$PROJECT_DIR$/target/classes/pl/fiszki/controllers/WordController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pl/fiszki/dao/WordDAO.class" afterPath="$PROJECT_DIR$/target/classes/pl/fiszki/dao/WordDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fiszki-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/fiszki-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fiszki-1.0-SNAPSHOT/WEB-INF/classes/pl/fiszki/config/DatebaseConfig.class" afterPath="$PROJECT_DIR$/target/fiszki-1.0-SNAPSHOT/WEB-INF/classes/pl/fiszki/config/DatebaseConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fiszki-1.0-SNAPSHOT/WEB-INF/classes/pl/fiszki/config/WebConfig.class" afterPath="$PROJECT_DIR$/target/fiszki-1.0-SNAPSHOT/WEB-INF/classes/pl/fiszki/config/WebConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fiszki-1.0-SNAPSHOT/WEB-INF/classes/pl/fiszki/controllers/TestController.class" afterPath="$PROJECT_DIR$/target/fiszki-1.0-SNAPSHOT/WEB-INF/classes/pl/fiszki/controllers/TestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fiszki-1.0-SNAPSHOT/WEB-INF/classes/pl/fiszki/controllers/WordController.class" afterPath="$PROJECT_DIR$/target/fiszki-1.0-SNAPSHOT/WEB-INF/classes/pl/fiszki/controllers/WordController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fiszki-1.0-SNAPSHOT/WEB-INF/classes/pl/fiszki/dao/WordDAO.class" afterPath="$PROJECT_DIR$/target/fiszki-1.0-SNAPSHOT/WEB-INF/classes/pl/fiszki/dao/WordDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/dao/getRandomIndexTest.class" afterPath="$PROJECT_DIR$/target/test-classes/dao/getRandomIndexTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/fiszki_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/fiszki_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/bcac36fa-66e5-452c-b849-c4b5f4508fc6.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/bcac36fa-66e5-452c-b849-c4b5f4508fc6.xml" />
+    <list default="true" id="4d364d8c-0acc-4cd4-a759-f92de37709cf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/config/SecurityConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/config/SecurityWebInitializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/controllers/login/LoginController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/dao/UserDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/dao/UserRoleDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/dao/WordDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/models/Role.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/models/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/models/UserRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/models/UserStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/service/WordService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/service/impl/UserDetailsServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/service/impl/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/service/impl/WordServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user-info.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fiszki.iml" afterPath="$PROJECT_DIR$/fiszki.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/fiszki/config/DatebaseConfig.java" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/config/DatebaseConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/fiszki/config/WebConfig.java" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/config/WebConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/fiszki/controllers/WordController.java" afterPath="$PROJECT_DIR$/src/main/java/pl/fiszki/controllers/WordController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/controller/HomeControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/controller/HomeControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/dao/getRandomIndexTest.java" afterPath="$PROJECT_DIR$/src/test/java/dao/getRandomIndexTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1296,7 +1276,7 @@
       <workItem from="1492333982408" duration="16106000" />
       <workItem from="1492418047233" duration="7663000" />
       <workItem from="1492498527294" duration="3675000" />
-      <workItem from="1492502755696" duration="6708000" />
+      <workItem from="1492502755696" duration="6888000" />
     </task>
     <task id="LOCAL-00001" summary="Pierwszy commit &#10;Wprowadzenie nowych funkcjonalności">
       <created>1486559556007</created>
@@ -1305,7 +1285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1486559556007</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Poprawienie połączenia z bazą danych, dodanie spring data jpa">
+      <created>1492510566422</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1492510566422</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1323,7 +1310,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236790000" />
+    <option name="totallyTimeSpent" value="236970000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1336,7 +1323,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1362,7 +1348,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1268147" sideWeight="0.5045161" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23952739" sideWeight="0.49150622" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23952739" sideWeight="0.49150622" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27765843" sideWeight="0.5084938" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
