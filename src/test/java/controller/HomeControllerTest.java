@@ -1,4 +1,4 @@
-package controller;
+/*package controller;
 
 
 import org.junit.Test;
@@ -11,9 +11,7 @@ import pl.fiszki.controllers.HomeController;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 
-/**
- * Created by Bartek on 30.01.2017.
- */
+
 
 public class HomeControllerTest {
     @Test
@@ -30,3 +28,4 @@ public class HomeControllerTest {
 
     }
 }
+*/

@@ -10,8 +10,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
-import pl.fiszki.dao.WordDAO;
-import pl.fiszki.dao.WordDAOimpl;
 
 /**
  * Created by Bartek on 30.01.2017.

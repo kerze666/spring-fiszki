@@ -3,6 +3,7 @@ package pl.fiszki.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalEntityManagerFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
@@ -12,17 +13,18 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @Configuration
 @ComponentScan(value = "pl.fiszki")
+@EnableJpaRepositories(basePackages = "pl.fiszki.dao", entityManagerFactoryRef = "entityManagerFactory")
 @EnableTransactionManagement
 public class DatebaseConfig {
     @Bean
-    public LocalEntityManagerFactoryBean factoryBean(){
+    public LocalEntityManagerFactoryBean entityManagerFactory(){
         LocalEntityManagerFactoryBean factoryBean = new LocalEntityManagerFactoryBean();
         factoryBean.setPersistenceUnitName("localEntity");
         return factoryBean;
     }
     @Bean
     public JpaTransactionManager jpaTransactionManager(){
-        JpaTransactionManager jpaTransactionManager = new JpaTransactionManager(factoryBean().getObject());
+        JpaTransactionManager jpaTransactionManager = new JpaTransactionManager(entityManagerFactory().getObject());
         jpaTransactionManager.setPersistenceUnitName("localEntity");
         return jpaTransactionManager;
     }
