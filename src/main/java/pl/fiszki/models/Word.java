@@ -11,11 +11,14 @@ public class Word {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-    @Column(name = "angielski",nullable = false)
+    @Column(name = "angielski", nullable = false)
     private String angielski;
-    @Column(name = "polski",nullable = false)
+    @Column(name = "polski", nullable = false)
     private String polski;
-
+    @Column(name = "category")
+    private String category;
+    @Column(name = "user_id")
+    private long userid;
 
     public long getId() {
         return id;
@@ -39,6 +42,22 @@ public class Word {
 
     public void setPolski(String polski) {
         this.polski = polski;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public long getUserid() {
+        return userid;
+    }
+
+    public void setUserid(long userid) {
+        this.userid = userid;
     }
 }
 

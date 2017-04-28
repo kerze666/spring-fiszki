@@ -5,4 +5,5 @@ package dao;
  */
 public class getRandomIndexTest {
 
+
 }

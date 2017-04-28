@@ -23,10 +23,11 @@ public class DatebaseConfig {
         return factoryBean;
     }
     @Bean
-    public JpaTransactionManager jpaTransactionManager(){
+    public JpaTransactionManager transactionManager(){
         JpaTransactionManager jpaTransactionManager = new JpaTransactionManager(entityManagerFactory().getObject());
         jpaTransactionManager.setPersistenceUnitName("localEntity");
         return jpaTransactionManager;
     }
+
 
 }
