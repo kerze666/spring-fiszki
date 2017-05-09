@@ -3,8 +3,8 @@ package pl.fiszki.dao;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import pl.fiszki.models.User;
-import pl.fiszki.models.UserStatus;
+import pl.fiszki.models.user.User;
+import pl.fiszki.models.user.UserStatus;
 
 import java.util.List;
 

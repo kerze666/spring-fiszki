@@ -1,6 +1,6 @@
 package pl.fiszki.service;
 
-import pl.fiszki.models.UserRole;
+import pl.fiszki.models.user.UserRole;
 
 /**
  * Created by Bartek on 24.04.2017.

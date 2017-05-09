@@ -28,6 +28,7 @@
                     <c:if test="${messageErr != null}">
                         <c:out value="${messageErr}"/><br>
                     </c:if>
+                    <input hidden class="" type="text" name="username" value="${idCat}">
                     <span>Nazwa użytkownika</span>
                     <input class="" type="text" name="username">
                     <hr class="light">

@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import pl.fiszki.dao.UserDAO;
-import pl.fiszki.models.User;
-import pl.fiszki.models.UserStatus;
+import pl.fiszki.models.user.User;
+import pl.fiszki.models.user.UserStatus;
 import pl.fiszki.service.UserService;
 
 import java.util.List;

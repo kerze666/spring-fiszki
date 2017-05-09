@@ -6,7 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import pl.fiszki.models.Word;
+import pl.fiszki.models.words.Word;
 import pl.fiszki.service.WordService;
 
 /**

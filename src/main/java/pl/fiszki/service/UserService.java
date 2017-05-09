@@ -1,8 +1,6 @@
 package pl.fiszki.service;
 
-import org.springframework.stereotype.Repository;
-import pl.fiszki.models.User;
-import pl.fiszki.models.UserRole;
+import pl.fiszki.models.user.User;
 
 import java.util.List;
 

@@ -7,9 +7,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import pl.fiszki.models.User;
-import pl.fiszki.models.UserRole;
-import pl.fiszki.models.UserStatus;
+import pl.fiszki.models.user.User;
+import pl.fiszki.models.user.UserRole;
+import pl.fiszki.models.user.UserStatus;
 import pl.fiszki.service.UserRoleService;
 import pl.fiszki.service.UserService;
 

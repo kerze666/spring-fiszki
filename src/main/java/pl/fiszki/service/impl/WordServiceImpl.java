@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import pl.fiszki.dao.WordDAO;
-import pl.fiszki.models.Word;
+import pl.fiszki.models.words.Word;
 import pl.fiszki.service.WordService;
 
 import java.util.List;
@@ -25,6 +25,15 @@ public class WordServiceImpl implements WordService {
 
     public List<Word> getWordsByIdBetween(long start, long stop) {
         return wordDAO.getWordsByIdBetween(start, stop);
+    }
+
+    public List<Word> getListOfWordsByIdCategory(long catId)
+    {
+        return wordDAO.findAllByCatId(catId);
+    }
+
+    public void deleteWordsByCatId(long catId) {
+        wordDAO.deleteWordsByCatId(catId);
     }
 
     @Transactional

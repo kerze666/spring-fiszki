@@ -10,13 +10,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import pl.fiszki.models.User;
-import pl.fiszki.models.UserRole;
-import pl.fiszki.models.UserStatus;
+import pl.fiszki.models.user.User;
+import pl.fiszki.models.user.UserRole;
+import pl.fiszki.models.user.UserStatus;
 import pl.fiszki.service.UserRoleService;
 import pl.fiszki.service.UserService;
-
-import java.util.List;
 
 /**
  * Created by Bartek on 18.04.2017.
@@ -39,6 +37,7 @@ public class AdminController {
     @RequestMapping(method = RequestMethod.GET)
     public String start(Model model) {
         model.addAttribute("username", SecurityContextHolder.getContext().getAuthentication().getName());
+        model.addAttribute("userlist", userService.getListOfUsers());
         return "admin/start";
     }
 
@@ -80,15 +79,7 @@ public class AdminController {
         return "admin/addUser/adduser";
     }
 
-    @RequestMapping(value = "delete", method = RequestMethod.GET)
-    public String deleteUserSite(Model model) {
-        model.addAttribute("username", SecurityContextHolder.getContext().getAuthentication().getName());
-
-        model.addAttribute("userlist", userService.getListOfUsers());
-
-        return "admin/deleteUser/deleteuser";
-    }
-    @RequestMapping(value = "delete/{id}", method = RequestMethod.GET)
+    @RequestMapping(value = "delete/{id}", method = RequestMethod.POST)
     public String deleteUserPost(Model model,
                                  @PathVariable long id) {
 
@@ -101,6 +92,6 @@ public class AdminController {
             userService.deleteUser(id);
             model.addAttribute("message", "Użytkownik został pomyślnie usunięty");
         }
-        return "admin/deleteUser/deleteuser";
+        return "redirect:/admin";
     }
 }

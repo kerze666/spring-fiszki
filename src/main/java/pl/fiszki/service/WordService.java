@@ -1,6 +1,6 @@
 package pl.fiszki.service;
 
-import pl.fiszki.models.Word;
+import pl.fiszki.models.words.Word;
 
 import java.util.List;
 
@@ -12,6 +12,10 @@ public interface WordService {
     Word findWordById(long id);
 
     List<Word> getWordsByIdBetween(long start, long stop);
+
+    List<Word> getListOfWordsByIdCategory(long catId);
+
+    void deleteWordsByCatId(long catId);
 
     void createWord(Word word);
 

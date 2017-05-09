@@ -9,9 +9,9 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import pl.fiszki.dao.UserDAO;
-import pl.fiszki.models.Role;
-import pl.fiszki.models.User;
-import pl.fiszki.models.UserStatus;
+import pl.fiszki.models.user.Role;
+import pl.fiszki.models.user.User;
+import pl.fiszki.models.user.UserStatus;
 
 import java.util.ArrayList;
 import java.util.Collection;
