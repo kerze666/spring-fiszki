@@ -1,5 +1,6 @@
 package pl.fiszki.service.impl;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -15,32 +16,29 @@ import java.util.List;
  */
 @Service
 public class UserServiceImpl implements UserService {
+
     @Autowired
     private UserDAO userDAO;
 
-    public User getUserByUserNameAndStatus(String username) {
-        return userDAO.findByUsernameAndStatus(username, UserStatus.ACTIVE);
+
+    public User findUserByUsername(String username, UserStatus userStatus) {
+        return userDAO.findByUsernameAndStatus(username, userStatus);
     }
 
-    public User getUserById(long id) {
-        return userDAO.findById(id);
+    public User findUserByUserId(long id) {
+        return userDAO.findOne(id);
     }
 
-    public long getIdUserByUsername(String username) {
-        return userDAO.getIdByUsername(username);
+    public boolean isUser(String username) {
+        return userDAO.findFirstByUsername(username)!=null;
     }
 
-    public Integer isUserInDatebase(String username) {
-        return userDAO.isUser(username);
+    public List<User> findAllUsers() {
+        return (List<User>) userDAO.findAll();
     }
 
-    public List<User> getListOfUsers() {
-        return userDAO.getAllUsers();
-    }
-
-    @Transactional
-    public void addUser(User user) {
-        userDAO.save(user);
+    public User createUser(User user) {
+        return userDAO.save(user);
     }
 
     @Transactional
@@ -49,6 +47,13 @@ public class UserServiceImpl implements UserService {
     }
 
     @Transactional
-    public void editUser(long id) {
+    public User updateUser(long id, User user) {
+        User old = userDAO.findOne(id);
+        old.setCategory(user.getCategory());
+        old.setPassword(user.getPassword());
+        old.setRoles(user.getRoles());
+        old.setStatus(user.getStatus());
+        old.setUsername(user.getUsername());
+        return userDAO.save(old);
     }
 }

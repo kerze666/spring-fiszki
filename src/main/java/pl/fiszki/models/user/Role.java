@@ -5,6 +5,7 @@ import java.util.List;
 
 
 @Entity
+@Table(name = "role")
 public class Role {
 
     @Id
@@ -19,11 +20,6 @@ public class Role {
     private List<User> userList;
 
     public Role() {
-    }
-
-    public Role(String role, List<User> userList) {
-        this.role = role;
-        this.userList = userList;
     }
 
     public long getId_role() {
@@ -48,6 +44,14 @@ public class Role {
 
     public void setUserList(List<User> userList) {
         this.userList = userList;
+    }
+
+    @Override
+    public String toString() {
+        return "Role{" +
+                "id_role=" + id_role +
+                ", role='" + role + '\'' +
+                '}';
     }
 }
 

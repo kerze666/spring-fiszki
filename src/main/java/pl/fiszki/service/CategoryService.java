@@ -1,5 +1,6 @@
 package pl.fiszki.service;
 
+import pl.fiszki.models.user.User;
 import pl.fiszki.models.words.Category;
 
 import java.util.List;
@@ -9,9 +10,11 @@ import java.util.List;
  */
 public interface CategoryService {
 
-    List<Category> getCategoriesByUserId(long id);
+    Category findCategoryById(long idcat);
 
-    boolean isCategory(String category, long userid);
+    List<Category> findCategoriesByUser(User user);
+
+    boolean isCategory(String category, User user);
 
     void addCategory(Category category);
 

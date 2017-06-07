@@ -23,10 +23,7 @@ public class UserRoleServiceImpl implements UserRoleService {
 
     @Transactional
     public void deleteRolesUser(long idUser) {
-        userRoleDAO.deleteByUserId(idUser);
+        userRoleDAO.delete(idUser);
     }
 
-    public long getRoleUserid(long iduser) {
-        return userRoleDAO.getUserRoleByUserId(iduser);
-    }
 }

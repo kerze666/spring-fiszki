@@ -10,22 +10,27 @@ import javax.persistence.*;
 public class Word {
 
     @Id
-    @GeneratedValue
+    @Column(name = "id_word")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @Column(name = "angielski", nullable = false)
+    @Column(name = "english", nullable = false)
     private String angielski;
 
-    @Column(name = "polski", nullable = false)
+    @Column(name = "polish", nullable = false)
     private String polski;
 
-    @Column(name = "id_user")
-    private long userid;
+    @ManyToOne
+    @JoinColumn(name = "id_cat", referencedColumnName = "id_cat")
+    private Category category;
 
-    @Column(name = "id_cat")
-    private long catId;
+    public Word() {
+    }
 
-
+    public Word(String angielski, String polski) {
+        this.angielski = angielski;
+        this.polski = polski;
+    }
 
     public long getId() {
         return id;
@@ -51,21 +56,21 @@ public class Word {
         this.polski = polski;
     }
 
-    public long getUserid() {
-        return userid;
+    public Category getCategory() {
+        return category;
     }
 
-    public void setUserid(long userid) {
-        this.userid = userid;
+    public void setCategory(Category category) {
+        this.category = category;
     }
 
-    public long getCatId() {
-        return catId;
+    @Override
+    public String toString() {
+        return "Word{" +
+                "id=" + id +
+                ", angielski='" + angielski + '\'' +
+                ", polski='" + polski + '\'' +
+                '}';
     }
-
-    public void setCatId(long id_cat) {
-        this.catId = id_cat;
-    }
-
 }
 

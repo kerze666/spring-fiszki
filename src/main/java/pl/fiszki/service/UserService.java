@@ -1,6 +1,7 @@
 package pl.fiszki.service;
 
 import pl.fiszki.models.user.User;
+import pl.fiszki.models.user.UserStatus;
 
 import java.util.List;
 
@@ -10,13 +11,18 @@ import java.util.List;
 
 public interface UserService {
 
-    User getUserByUserNameAndStatus(String username);
-    User getUserById(long id);
-    long getIdUserByUsername(String username);
-    Integer isUserInDatebase(String username);
-    List<User> getListOfUsers();
-    void addUser(User user);
+    User findUserByUsername(String username, UserStatus userStatus);
+
+    User findUserByUserId(long id);
+
+    boolean isUser(String username);
+
+    List<User> findAllUsers();
+
+    User createUser(User user);
+
     void deleteUser(long id);
-    void editUser(long id);
+
+    User updateUser(long id, User user);
 
 }

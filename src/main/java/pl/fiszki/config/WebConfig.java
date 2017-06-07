@@ -17,7 +17,8 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @Configuration
 @EnableWebMvc
 @ComponentScan("pl.fiszki")
-@Import(DatebaseConfig.class)
+@Import({DatebaseConfig.class, SecurityConfig.class})
+
 public class WebConfig extends WebMvcConfigurerAdapter {
 
     @Bean

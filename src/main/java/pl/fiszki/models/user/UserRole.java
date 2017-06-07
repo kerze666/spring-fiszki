@@ -12,10 +12,10 @@ public class UserRole {
     @Column(name = "id")
     private long id;
 
-    @Column(name = "user_role_id")
+    @Column(name = "id_role")
     private long idUserRole;
 
-    @Column(name = "user_id")
+    @Column(name = "id_user")
     private long userId;
 
     public UserRole() {

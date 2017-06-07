@@ -1,5 +1,6 @@
 package pl.fiszki.controllers.login;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
@@ -17,6 +18,8 @@ import pl.fiszki.service.UserService;
 @Controller
 public class LoginController {
 
+    private static Logger logger = Logger.getLogger(LoginController.class);
+
     @Autowired
     private UserService userService;
 
@@ -33,33 +36,42 @@ public class LoginController {
     }
 
 
-    @RequestMapping(value = "signin", method = RequestMethod.GET)
+    @RequestMapping(value = "registry", method = RequestMethod.GET)
     public String signInSite() {
-        return "registry/signin";
+        return "registry/registry";
     }
 
-    @RequestMapping(value = "signin", method = RequestMethod.POST)
+    @RequestMapping(value = "registry", method = RequestMethod.POST)
     public String signIn(Model model,
                          @RequestParam("username") String username,
-                         @RequestParam("password") String password) {
-        if (userService.isUserInDatebase(username) == null) {
-            /**create new user**/
-            User user = new User();
-            user.setUsername(username);
-            user.setPassword(passwordEncoder.encode(password));
-            user.setStatus(UserStatus.ACTIVE);
-            userService.addUser(user);
+                         @RequestParam("password") String password,
+                         @RequestParam("repassword") String repassword) {
 
-            UserRole userRole = new UserRole();
-            userRole.setIdUserRole(2);
-            userRole.setUserId(userService.getIdUserByUsername(username));
-            userRoleService.addRolesUser(userRole);
+        logger.warn("Is user in database: "+userService.isUser(username));
+        if(password.equals(repassword)){
+            logger.warn("Passowrd: "+password+ " - "+repassword);
+            if (!userService.isUser(username)) {
+                /**create new user**/
+                User user = new User();
+                user.setUsername(username);
+                user.setPassword(passwordEncoder.encode(password));
+                user.setStatus(UserStatus.ACTIVE);
+                userService.createUser(user);
 
-            model.addAttribute("messageSucc", "Stworzono nowego użytkownika " + username);
-        } else {
-            model.addAttribute("messageErr", "Nie udało się utworzyć użytkownika " + username);
+                UserRole userRole = new UserRole();
+                userRole.setIdUserRole(2);
+                userRole.setUserId(userService.findUserByUsername(username,UserStatus.ACTIVE).getId());
+                userRoleService.addRolesUser(userRole);
+
+                model.addAttribute("messageSucc", " Stworzono nowego użytkownika " + username+ " !");
+            } else {
+                model.addAttribute("message", " Istnieje już taki użytkownik !");
+            }
+        }else{
+            model.addAttribute("message", " Błędne hasło !");
         }
-        return "registry/signin";
+
+        return "registry/registry";
     }
 
 }

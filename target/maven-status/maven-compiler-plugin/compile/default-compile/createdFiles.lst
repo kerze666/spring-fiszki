@@ -3,6 +3,7 @@ pl\fiszki\config\WebConfig.class
 pl\fiszki\config\DatebaseConfig.class
 pl\fiszki\service\impl\WordServiceImpl.class
 pl\fiszki\service\UserRoleService.class
+pl\fiszki\config\filters\SetCharacterEncodingFilter.class
 pl\fiszki\models\user\Role.class
 pl\fiszki\service\WordService.class
 pl\fiszki\models\words\Category.class
@@ -19,7 +20,6 @@ pl\fiszki\service\CategoryService.class
 pl\fiszki\config\SecurityConfig.class
 pl\fiszki\controllers\HomeController.class
 pl\fiszki\dao\WordDAO.class
-pl\fiszki\controllers\WordController.class
 pl\fiszki\controllers\user\UserWordsController.class
 pl\fiszki\controllers\user\UserController.class
 pl\fiszki\controllers\admin\AdminController.class

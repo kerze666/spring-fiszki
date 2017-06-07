@@ -1,27 +1,26 @@
 package pl.fiszki.controllers.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.annotation.Secured;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.support.RequestContextUtils;
 import pl.fiszki.models.user.User;
+import pl.fiszki.models.user.UserStatus;
 import pl.fiszki.models.words.Category;
 import pl.fiszki.service.UserService;
 import pl.fiszki.service.WordService;
 import pl.fiszki.service.impl.CategoryServiceImpl;
 
-@Controller
-@Secured("ROLE_USER")
-@RequestMapping("user")
-public class UserController {
+import javax.servlet.http.HttpServletRequest;
+import java.util.Map;
 
-    @Autowired
-    private WordService wordService;
+@Controller
+@PreAuthorize("hasRole('USER')")
+@RequestMapping("/user")
+public class UserController {
 
     @Autowired
     private UserService userService;
@@ -30,12 +29,13 @@ public class UserController {
     private CategoryServiceImpl categoryService;
 
     @RequestMapping(method = RequestMethod.GET)
-    public String startUserSite(Model model) {
-        User user = userService.getUserByUserNameAndStatus(SecurityContextHolder.getContext().getAuthentication().getName());
+    public String startUserSite(Model model, @ModelAttribute(name = "message") String message) {
+        User user = userService.findUserByUsername(SecurityContextHolder.getContext().getAuthentication().getName(), UserStatus.ACTIVE);
 
+        model.addAttribute("message",message);
         model.addAttribute("user", user);
-        model.addAttribute("categories", categoryService.getCategoriesByUserId(user.getId()));
-
+        model.addAttribute("adminWords", categoryService.findCategoriesByUser(userService.findUserByUsername("admin",UserStatus.ACTIVE)));
+        model.addAttribute("categories", categoryService.findCategoriesByUser(user));
 
         return "user/start";
     }
@@ -49,21 +49,24 @@ public class UserController {
     @RequestMapping(value = "addcategory", method = RequestMethod.POST)
     public String addCategoryPost(Model model,
                                   @RequestParam(value = "category") String nameOfCategory) {
-        User user = userService.getUserByUserNameAndStatus(SecurityContextHolder.getContext().getAuthentication().getName());
+
+        User user = userService.findUserByUsername(SecurityContextHolder.getContext().getAuthentication().getName(), UserStatus.ACTIVE);
+
         model.addAttribute("username", user.getUsername());
-        if (!categoryService.isCategory(nameOfCategory, user.getId())) {
+        if (!categoryService.isCategory(nameOfCategory,user)) {
 
             Category category = new Category();
             category.setCategory(nameOfCategory);
-            category.setUserid(user.getId());
+            category.setUser(user);
 
             categoryService.addCategory(category);
 
-            model.addAttribute("message", "Dodałeś nową kategorię : " + nameOfCategory);
-
+            model.addAttribute("message", "Dodales nowa kategorie : " + nameOfCategory);
+            model.addAttribute("categories", categoryService.findCategoriesByUser(user));
+            model.addAttribute("adminWords", categoryService.findCategoryById(1));
             return "redirect:/user";
         } else {
-            model.addAttribute("message", "Posiadasz już taką kategorię w swojej fiszkotece !");
+            model.addAttribute("message", "Posiadasz już taką kategorie w swojej fiszkotece !");
 
             return "user/newcategory";
         }
@@ -75,7 +78,6 @@ public class UserController {
                                  @PathVariable long catId) {
         try {
             categoryService.deleteCategory(catId);
-            wordService.deleteWordsByCatId(catId);// do dopracowania
             model.addAttribute("message", "Kategoria została usunięta");
         }catch (Exception e){
             System.out.println("You get a null in words");

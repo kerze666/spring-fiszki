@@ -1,6 +1,9 @@
 package pl.fiszki.models.words;
 
+import pl.fiszki.models.user.User;
+
 import javax.persistence.*;
+import java.util.List;
 
 /**
  * Created by Bartek on 04.05.2017.
@@ -16,9 +19,21 @@ public class Category {
     @Column(name = "category")
     private String category;
 
-    @Column(name = "id_user")
-    private long userid;
+    @ManyToOne
+    @JoinColumn(name = "id_user", referencedColumnName = "id_user")
+    private User user;
 
+    @OneToMany(mappedBy = "category", cascade = CascadeType.ALL)
+    private List<Word> words;
+
+
+    public Category() {
+    }
+
+    public Category(String category, User user) {
+        this.category = category;
+        this.user = user;
+    }
 
     public long getId() {
         return id;
@@ -36,12 +51,19 @@ public class Category {
         this.category = category;
     }
 
-    public long getUserid() {
-        return userid;
+    public User getUser() {
+        return user;
     }
 
-    public void setUserid(long userid) {
-        this.userid = userid;
+    public void setUser(User user) {
+        this.user = user;
     }
 
+    public List<Word> getWords() {
+        return words;
+    }
+
+    public void setWords(List<Word> words) {
+        this.words = words;
+    }
 }

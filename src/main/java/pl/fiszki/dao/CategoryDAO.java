@@ -3,6 +3,7 @@ package pl.fiszki.dao;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
+import pl.fiszki.models.user.User;
 import pl.fiszki.models.words.Category;
 
 import java.util.List;
@@ -13,11 +14,10 @@ import java.util.List;
 @Repository
 public interface CategoryDAO extends CrudRepository<Category, Long> {
 
-    List<Category> findByUserid(long userid);
+    List<Category> findAllByUser(User user);
 
-    void deleteById(long idCat);
+    Category findByCategory(String category);
 
-    @Query("select 1 from Category c where c.category = ?1 and c.userid = ?2")
-    Integer isCategoryByUserId(String category, long userid);
-
+    @Query("select 1 from Category where category = ?1 and user = ?2")
+    Integer findFirstByCategoryAndUser(String category, User user);
 }

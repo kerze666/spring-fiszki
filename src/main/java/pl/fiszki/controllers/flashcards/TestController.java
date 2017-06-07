@@ -7,7 +7,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import pl.fiszki.models.words.Word;
+import pl.fiszki.service.CategoryService;
 import pl.fiszki.service.WordService;
+
+import java.util.List;
+import java.util.Random;
 
 /**
  * Created by Bartek on 25.02.2017.
@@ -22,7 +26,9 @@ public class TestController {
     // fiszki wyświetlają polski ządają odpowiedzi angielskiej
     @RequestMapping(value = "/testcard", method = RequestMethod.GET)
     public String getRandomFlashCard(Model model) {
-        model.addAttribute("word",wordService.getRandomWord(1000));
+        List<Word> wordList = wordService.findListOfWordsByIdCategory(1);
+        Random random = new Random();
+        model.addAttribute("word",wordList.get(random.nextInt(wordList.size())));
         return "testEng";
     }
 
@@ -41,19 +47,12 @@ public class TestController {
             return "faultEng";
         }
     }
-
-    // fiszki wyświetlają 4 fiszki i żądają odpowiedzi
-//    @RequestMapping(value = "/testcardpol")
-//    public String getPolandRandomFlashcards(Model model){
-//        model.addAttribute("list",wordDAO.getRandomFlashcards(4));
-//        return "testPol";
-//    }
-//
-//    @RequestMapping(value = "/checkanswerPol")
-//    public String checkFlashcards(Model model){
-//        model.addAttribute("list",wordDAO.getRandomFlashcards(4));
-//        return "testPol";
-//    }
+    @RequestMapping(value = "/list", method = RequestMethod.GET)
+    public String listOfWords(Model model){
+        List<Word> list = wordService.findListOfWordsByIdCategory(1);
+        model.addAttribute("list", list);
+        return "list";
+    }
 
 
 }

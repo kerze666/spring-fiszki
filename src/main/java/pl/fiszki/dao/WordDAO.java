@@ -1,11 +1,10 @@
 package pl.fiszki.dao;
 
-        import org.springframework.data.jpa.repository.Query;
-        import org.springframework.data.repository.CrudRepository;
-        import org.springframework.stereotype.Repository;
-        import pl.fiszki.models.words.Word;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+import pl.fiszki.models.words.Word;
 
-        import java.util.List;
+import java.util.List;
 
 
 /**
@@ -14,14 +13,7 @@ package pl.fiszki.dao;
 @Repository
 public interface WordDAO extends CrudRepository<Word, Long> {
 
-    Word findWordById(long id);
-
-    @Query("SELECT w from Word w where w.id between ?1 and ?2")
-    List<Word> getWordsByIdBetween(long start, long stop);
-
-    void deleteWordsByCatId(long catId);
-
-    List<Word> findAllByCatId(long catId);
+    List<Word> findAllByCategory_Id(long category_id);
 
 }
 

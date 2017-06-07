@@ -1,7 +1,8 @@
 package pl.fiszki.controllers.admin;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.annotation.Secured;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
@@ -16,28 +17,36 @@ import pl.fiszki.models.user.UserStatus;
 import pl.fiszki.service.UserRoleService;
 import pl.fiszki.service.UserService;
 
+
 /**
  * Created by Bartek on 18.04.2017.
  */
 
 @Controller
-@Secured({"ROLE_ADMIN"})
-@RequestMapping(value = "admin")
+@PreAuthorize("hasRole('ADMIN')")
+@RequestMapping(value = "/admin")
 public class AdminController {
 
-    @Autowired
-    private UserService userService;
+    private static Logger logger = Logger.getLogger(AdminController.class);
+
+    private final UserService userService;
+
+    private final UserRoleService userRoleService;
+
+    private final PasswordEncoder passwordEncoder;
 
     @Autowired
-    private UserRoleService userRoleService;
-
-    @Autowired
-    private PasswordEncoder passwordEncoder;
+    public AdminController(UserService userService, UserRoleService userRoleService, PasswordEncoder passwordEncoder) {
+        this.userService = userService;
+        this.userRoleService = userRoleService;
+        this.passwordEncoder = passwordEncoder;
+    }
 
     @RequestMapping(method = RequestMethod.GET)
     public String start(Model model) {
         model.addAttribute("username", SecurityContextHolder.getContext().getAuthentication().getName());
-        model.addAttribute("userlist", userService.getListOfUsers());
+        model.addAttribute("userlist", userService.findAllUsers());
+        logger.warn("admin has logged.");
         return "admin/start";
     }
 
@@ -47,21 +56,22 @@ public class AdminController {
         return "admin/addUser/adduser";
     }
 
-    /** TO DO add validate for params**/
+    /**
+     * TO DO add validate for params
+     **/
     @RequestMapping(value = "adduser", method = RequestMethod.POST)
     public String addUserPost(Model model,
                               @RequestParam("username") String username,
                               @RequestParam("password") String password) {
 
         model.addAttribute("username", SecurityContextHolder.getContext().getAuthentication().getName());
-        System.out.println(userService.isUserInDatebase(username));
-        if (userService.isUserInDatebase(username) == null) {
+        if (!userService.isUser(username)) {
             /**create new user**/
             User user = new User();
             user.setUsername(username);
             user.setPassword(passwordEncoder.encode(password));
             user.setStatus(UserStatus.ACTIVE);
-            userService.addUser(user);
+            userService.createUser(user);
 
             /**
              * add roles for new user
@@ -69,7 +79,7 @@ public class AdminController {
              **/
             UserRole userRole = new UserRole();
             userRole.setIdUserRole(2);
-            userRole.setUserId(userService.getIdUserByUsername(username));
+            userRole.setUserId(user.getId());
             userRoleService.addRolesUser(userRole);
 
             model.addAttribute("messageSucc", "Stworzono nowego użytkownika " + username);
@@ -81,17 +91,13 @@ public class AdminController {
 
     @RequestMapping(value = "delete/{id}", method = RequestMethod.POST)
     public String deleteUserPost(Model model,
-                                 @PathVariable long id) {
+                                 @PathVariable long id
+                                 ) {
 
-        User user = userService.getUserById(id);
-
-        if(user == null){
-            model.addAttribute("message", "Err");
-        }else{
-            userRoleService.deleteRolesUser(id);
-            userService.deleteUser(id);
-            model.addAttribute("message", "Użytkownik został pomyślnie usunięty");
-        }
+        userService.deleteUser(id);
+        model.addAttribute("message", "Użytkownik został pomyślnie usunięty");
         return "redirect:/admin";
     }
+
+
 }

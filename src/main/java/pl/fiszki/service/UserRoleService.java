@@ -11,5 +11,4 @@ public interface UserRoleService {
 
     void deleteRolesUser(long idUser);
 
-    long getRoleUserid(long iduser);
 }

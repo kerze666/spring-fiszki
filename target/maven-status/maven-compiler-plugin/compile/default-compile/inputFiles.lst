@@ -8,8 +8,8 @@ C:\Programing\fiszki\src\main\java\pl\fiszki\config\WebConfig.java
 C:\Programing\fiszki\src\main\java\pl\fiszki\service\impl\CategoryServiceImpl.java
 C:\Programing\fiszki\src\main\java\pl\fiszki\config\SecurityConfig.java
 C:\Programing\fiszki\src\main\java\pl\fiszki\dao\CategoryDAO.java
+C:\Programing\fiszki\src\main\java\pl\fiszki\config\filters\SetCharacterEncodingFilter.java
 C:\Programing\fiszki\src\main\java\pl\fiszki\controllers\flashcards\TestController.java
-C:\Programing\fiszki\src\main\java\pl\fiszki\controllers\WordController.java
 C:\Programing\fiszki\src\main\java\pl\fiszki\models\user\User.java
 C:\Programing\fiszki\src\main\java\pl\fiszki\service\CategoryService.java
 C:\Programing\fiszki\src\main\java\pl\fiszki\models\user\Role.java
